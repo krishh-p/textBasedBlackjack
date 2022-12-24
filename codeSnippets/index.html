@@ -1,0 +1,189 @@
+<!-- 
+   Santhosh Vijay and Krish Patel
+   4/3/2022
+   Code Snippets Page
+   This page was created to become our Code Snippets from our game.
+-->
+<html>
+   <head>
+      <link rel = "icon" a href = "../../images/blackJack.png" type = "image/x-icon">
+      <title>
+         Code Snippets
+      </title>
+      <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@300&display=swap" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet"/>
+      <link rel="stylesheet" href="../style.css">
+   </head>
+   <body>
+      <div id=navBar>
+         <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="index.html">Code Snippets</a></li>
+            <li><a href="../howToPlay/index.html">How To Play</a></li>
+            <li><a href="../gamePage/index.html">Play Game</a></li>
+         </ul>
+      </div>
+      <div id="backgroundImage">
+         <h1 id="homepageTitle">
+            Code Snippets
+         </h1>
+      </div>
+      <br><br>
+      <h1 id="codeSnipHeadings">
+         While Loops
+      </h1>
+      <hr>
+      <hr>
+      <table id="whileTable">
+         <tr>
+            <td>
+               <img src="../../images/whileLoop1.png" height=300 width=950>
+            </td>
+            <td>
+               <p id="paragraphs">
+                  Within this code snippet, we see the implementation of a while loop. This is placed there so when the player bets more than the total amount of money they have, the bet won't go through! As you can see, if the bet they placed is greater than the amount of money they have, an alert will pop up saying that you do not have enough money and will need to input a valid number. This will keep happening until they enter a valid input
+               </p>
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      <br>
+      <h1 id="codeSnipHeadings">
+         For Loops
+      </h1>
+      <table id="forLoopTable">
+         <tr>
+            <td>
+               <p id="paragraphs">
+                  After the player loses all their money, we get them to choose a number between 5 and 10 and that's the number of times a message telling them not to gamble will pop up. Using a for loop, it will go from the first number up to the number they input and repeat the same sentence each time. Hopefully the Bart Simpson writing on the chalk board method will work here!
+               </p>
+            </td>
+            <td>
+               <img src="../../images/forLoop.png" height=550 width=1000>
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      <h1 id="codeSnipHeadings">
+         Do While Loops
+      </h1>
+      <table id="doWhileTable">
+         <tr>
+            <td>
+               <img src="../../images/doWhile.png">
+            </td>
+            <td>
+               <p id="paragraphs">
+                  We included a do while loop here because the dealer always has to deal 1 card (their second card) before we check if the sum is above 16. By using a do while loop, the code will iterate at least once.
+               </p>
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      <br>
+      <table id="logicalAndShortcutTable">
+         <tr>
+            <td>
+               <h1 id="codeSnipHeadings">
+                  Logical Operation
+               </h1>
+            </td>
+            <td>
+               <h1 id="codeSnipHeadings">
+                  Shortcut Operation
+               </h1>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <center>
+                  <img src="../../images/logicalOperation.png" height=550 width=850>
+               </center>
+            </td>
+            <td>
+               <center>
+                  <img src="../../images/shortcutOperations.png" height=550 width=850>
+               </center>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <p id="paragraphs">
+                  Our code includes the use of a logical operation. The use of <strong>|  |</strong> allows another answer to be correct. In this code, when the prompt for hitOrStand comes up, the code will accept "S", "s", "Stand", or "stand" to stand. If one of these strings are the inputs, the loop will break.
+               </p>
+            </td>
+            <td>
+               <p id="paragraphs">
+                  Our code also included the use of a shortcut operation. The use of <strong> +=</strong> makes the string to be added to the "reminder" variable. The long version of this would be reminder=reminder+"string"
+               </p>
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      <h1 id="codeSnipHeadings">
+         If, Else Ifs, and Else Loops
+      </h1>
+      <table id="ifElseifsandElse">
+         <tr>
+            <td>
+               <img src="../../images/ifElseifAndElse.png" height=750 width=950>
+            </td>
+            <td>
+               <p id="paragraphs">
+                  This piece of code lists that if the dealer's sum is over 21, the dealer busts and you win money. If that does not happen (else if), if the dealer's sum is bigger than player's sum, you lose and you lose money. If that does not happen (else if), and the player's sum is bigger than the dealer's sum, you win and you win money. If none of that happens (else), that means that the two sums are equal and it's a tie!
+               </p>
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      <h1 id="codeSnipHeadings">
+         Random Numbers
+      </h1>
+      <table id="randomNumbers">
+         <tr>
+            <td>
+               <img src="../../images/randomNumbers.png">
+            </td>
+            <td>
+               <p id="paragraphs">
+                  The first number randomizer is to determine the number of the card. It generates a number between 1 and 13, since there are that many names in a deck of cards (including A, J, Q, K).<br><br>The second number randomizer is to determine the suite of the card. It generates a number between 1 and 4 as there are four suites that the number could be in a deck of cards (Hearts, Diamonds, Clubs, Spades).
+               </p>
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      <br>
+      <h1 id="codeSnipHeadings">
+         Math Operators
+      </h1>
+      <table id="mathOperations">
+         <tr>
+            <td>
+               <p id="paragraphs">
+                  There are many times we use math operations during the game. Here you can see we multiply bet by 1.5 when the player gets a blackjack. This is because blackjacks pays out 1.5 times the money won, so we must add that to their overall total!
+               </p>
+            </td>
+            <td>
+               <img src="../../images/mathOperations.png">
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+     <center>
+       <h1 style="font-size: 40px;">
+         Click the "blackjack.txt" button to go to a text file containing all of our code from this project
+       </h1>
+       <a href="../../blackjack.txt">
+         <img src="../images/blackjackTxtImage.png">
+       </a>
+     </center>
+   </body>
+</html>

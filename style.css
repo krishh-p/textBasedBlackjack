@@ -1,0 +1,270 @@
+/*
+  Santhosh Vijay and Krish Patel
+  4/4/2022
+  Styles sheet
+  This following code is for the styles!
+*/
+
+body{
+  background-image: linear-gradient(#080838 30%, #8a0b0b);
+  color:white;
+}
+
+p{
+  font-family: 'Anek Tamil', sans-serif;
+}
+h1{
+  font-family: 'Play', sans-serif;
+}
+
+#navBar {
+  font-size: 30px;
+  padding-left: 200px;
+}
+
+#navBar ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+#navBar li {
+  float: left;
+  text-align: center;
+}
+
+#navBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 100px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#navBar li a:hover {
+  background-color:#0c2f5c;
+  font-size:36px;
+  transition:0.2s
+}
+
+#backgroundImage
+{
+  background-image: url(images/titleBackground.png);
+  height: 550px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+/* To get glowing text, we used code from: https://www.w3schools.com/howto/howto_css_glowing_text.asp*/
+#homepageTitle{
+  position: relative;
+  top: 50px;
+  font-size: 80px;
+  font-family: 'Press Start 2P';
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 3s ease-in-out infinite alternate;
+  -moz-animation: glow 1.5s ease-in-out infinite alternate;
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FF0000, 0 0 40px #FF0000, 0 0 50px #FF0000, 0 0 60px #FF0000, 0 0 70px #FF0000;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #1a2ac0, 0 0 40px #1a2ac0, 0 0 50px #1a2ac0, 0 0 60px #1a2ac0, 0 0 70px #1a2ac0, 0 0 80px #1a2ac0;
+  }
+}
+
+/* GAME BUTTON */
+
+
+/* WELCOME TABLE */
+
+#welcomeTable{
+  font-size: 28px;
+  line-height: 45px;
+  padding: 70px;
+  color: white;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+#mainPageHeadings{
+  display:block;
+  text-align: left;
+  font-size: 50px;
+  color:white;
+  position: relative;
+  left:230px;
+  top:40px;
+}
+
+#paragraphs{
+  font-size: 26px;
+  line-height: 45px;
+  padding: 100px;
+  color:white;
+}
+
+#welcomePicture{
+  padding: 40px;
+}
+
+#pointersTable{
+  font-size: 28px;
+  line-height: 45px;
+  padding: 70px;
+  color: white;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+
+#creatorsHeading{
+  display:block;
+  text-align: center;
+  font-size: 50px;
+  color:white;
+}
+
+#creatorTable{
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+/* THE FOLLOWING CODE IS TO STYLE THE HOW TO PLAY WEBPAGE*/
+
+#introTable{
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+#winOrLoseTable{
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+#leavingTable{
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+#endTable{
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+/* The following is to style the code in the code snippets webpage */
+
+#whileTable {
+  margin:auto;
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+#forLoopTable{
+  margin:auto;
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+#doWhileTable{
+  margin:auto;
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4); 
+}
+
+#logicalAndShortcutTable{
+  margin:auto;
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);  
+}
+
+#ifElseifsandElse{
+  margin:auto;
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+#randomNumbers{
+  margin:auto;
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+#mathOperations{
+  margin:auto;
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+#codeSnipHeadings{
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  color:white;
+  text-decoration: underline;
+}
+#howToPlayHeadings{
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  color:white;
+  text-decoration: underline;
+}
+
+
+/* The following code is to style the game page */
+
+#gamePageHeading {
+  background-color: rgba(175, 175, 175, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

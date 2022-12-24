@@ -1,0 +1,1139 @@
+--------------------------------------------------------------HOMEPAGE--------------------------------------------------------------
+
+<!-- 
+   Santhosh Vijay and Krish Patel
+   3/30/2022
+   Home Page
+   This page was created to become our homepage for our game.
+   -->
+<html>
+  <head>
+      <link rel = "icon" a href = "../images/blackJack.png" type = "image/x-icon">
+      <title>
+         Homepage
+      </title>
+      <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@300&display=swap" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <div id=navBar>
+         <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="codeSnippets/index.html">Code Snippets</a></li>
+            <li><a href="howToPlay/index.html">How To Play</a></li>
+            <li><a href="gamePage/index.html">Play Game</a></li>
+         </ul>
+      </div>
+      <div id="backgroundImage">
+         <h1 id="homepageTitle">
+            BLACKJACK ATTACK!
+         </h1>
+      </div>
+      <!--game button-->                                                                      
+      <br><br><br>
+      <h1 id="mainPageHeadings" style="z-index:1; position: relative; top:130px;">
+         Embrace the Gambling Life!
+      </h1>
+      <table id="welcomeTable">
+         <tr>
+            <td id="paragraphs">
+               <p>
+                  Welcome to Blackjack! We have recreated this classic casino game for you to enjoy without the stress of losing your hard-earned money. Why travel to Las Vegas when you can have the same experience from the comfort of your own household? We used the concepts learned in unit 2 to construct this game. Please feel free to look at the "How To Play" tab as well as our "Code Snippets" tab, located in the top header. We hope you enjoy your stay at Blackjack Attack and remember, quit while you're ahead!
+               </p>
+            </td>
+            <td>
+               <img src="images/welcomeImage.png" id=welcomeImage height=450 width=800>
+            </td>
+         </tr>
+      </table>
+      <br><br><br>
+      <h1 id="mainPageHeadings" style="z-index: 1; text-align: right; position:relative; left: -420px; top: 130px;">
+         Pointers
+      </h1>
+      <table id="pointersTable">
+         <tr>
+            <td>
+               <img src="images/blackjack1.png" id=welcomeImage height=500 width=800>
+            </td>
+            <td id="paragraphs" style="position: relative; left:40px;">
+               <p>
+                  • You cannot go back to the main page once you click play until you complete playing the game.<br><br>
+                  • When entering the amount you want to bet, only enter the number, no dollar signs or letters.<br><br>
+                  • When a card is drawn, it will be placed below the other cards you have, same with the dealer. Scroll down to view your cards<br><br>
+                  • Read the "How To Play" before playing the game<br><br>
+                  • Have Fun!!!
+               </p>
+            </td>
+         </tr>
+      </table>
+      <br>
+      <br>
+      <br>
+      <h1 id="creatorsHeading">
+         About the Creators!
+      </h1>
+      <table id="creatorTable">
+         <tr>
+            <td>
+               <center>
+                  <img src="images/krishAvatar.png">
+               </center>
+            </td>
+            <td>
+               <center>
+                  <img src="images/avatarSanthosh.png">
+               </center>
+            </td>
+         <tr>
+            <td>
+               <center>
+                  <h1>
+                     Krish Patel
+                  </h1>
+                  <p id="paragraphs">
+                     Krish Patel is 16 years old with a dream to become a better coder than Mr. Krnic himself!! His passions include coding, playing sports and listening to music. When Santhosh came up to Krish with his multi-billion dollar concept, he could not refuse the offer!
+                  </p>
+               </center>
+            </td>
+            <td>
+               <center>
+                  <h1>
+                     Santhosh Vijayananthan
+                  </h1>
+                  <p id="paragraphs">
+                     Santhosh Vijayananthan is 17 year old with a strong passion to gamble. His dream to create a multi-billion dollar company with his close school friend Krish Patel has finally come true. Now with this, he can futher his gambling career! 
+               </center>
+               </p>
+            </td>
+         </tr>
+      </table>
+      </tr>
+   </body>
+</html>
+
+
+-----------------------------------------------------------CODE SNIPPETS-----------------------------------------------------------
+<!-- 
+   Santhosh Vijay and Krish Patel
+   4/3/2022
+   Code Snippets Page
+   This page was created to become our Code Snippets from our game.
+-->
+<html>
+   <head>
+      <link rel = "icon" a href = "../../images/blackJack.png" type = "image/x-icon">
+      <title>
+         Code Snippets
+      </title>
+      <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@300&display=swap" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet"/>
+      <link rel="stylesheet" href="../style.css">
+   </head>
+   <body>
+      <div id=navBar>
+         <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="index.html">Code Snippets</a></li>
+            <li><a href="../howToPlay/index.html">How To Play</a></li>
+            <li><a href="../gamePage/index.html">Play Game</a></li>
+         </ul>
+      </div>
+      <div id="backgroundImage">
+         <h1 id="homepageTitle">
+            Code Snippets
+         </h1>
+      </div>
+      <br><br>
+      <h1 id="codeSnipHeadings">
+         While Loops
+      </h1>
+      <hr>
+      <hr>
+      <table id="whileTable">
+         <tr>
+            <td>
+               <img src="../../images/whileLoop1.png" height=300 width=950>
+            </td>
+            <td>
+               <p id="paragraphs">
+                  Within this code snippet, we see the implementation of a while loop. This is placed there so when the player bets more than the total amount of money they have, the bet won't go through! As you can see, if the bet they placed is greater than the amount of money they have, an alert will pop up saying that you do not have enough money and will need to input a valid number. This will keep happening until they enter a valid input
+               </p>
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      <br>
+      <h1 id="codeSnipHeadings">
+         For Loops
+      </h1>
+      <table id="forLoopTable">
+         <tr>
+            <td>
+               <p id="paragraphs">
+                  After the player loses all their money, we get them to choose a number between 5 and 10 and that's the number of times a message telling them not to gamble will pop up. Using a for loop, it will go from the first number up to the number they input and repeat the same sentence each time. Hopefully the Bart Simpson writing on the chalk board method will work here!
+               </p>
+            </td>
+            <td>
+               <img src="../../images/forLoop.png" height=550 width=1000>
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      <h1 id="codeSnipHeadings">
+         Do While Loops
+      </h1>
+      <table id="doWhileTable">
+         <tr>
+            <td>
+               <img src="../../images/doWhile.png">
+            </td>
+            <td>
+               <p id="paragraphs">
+                  We included a do while loop here because the dealer always has to deal 1 card (their second card) before we check if the sum is above 16. By using a do while loop, the code will iterate at least once.
+               </p>
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      <br>
+      <table id="logicalAndShortcutTable">
+         <tr>
+            <td>
+               <h1 id="codeSnipHeadings">
+                  Logical Operation
+               </h1>
+            </td>
+            <td>
+               <h1 id="codeSnipHeadings">
+                  Shortcut Operation
+               </h1>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <center>
+                  <img src="../../images/logicalOperation.png" height=550 width=850>
+               </center>
+            </td>
+            <td>
+               <center>
+                  <img src="../../images/shortcutOperations.png" height=550 width=850>
+               </center>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <p id="paragraphs">
+                  Our code includes the use of a logical operation. The use of <strong>|  |</strong> allows another answer to be correct. In this code, when the prompt for hitOrStand comes up, the code will accept "S", "s", "Stand", or "stand" to stand. If one of these strings are the inputs, the loop will break.
+               </p>
+            </td>
+            <td>
+               <p id="paragraphs">
+                  Our code also included the use of a shortcut operation. The use of <strong> +=</strong> makes the string to be added to the "reminder" variable. The long version of this would be reminder=reminder+"string"
+               </p>
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      <h1 id="codeSnipHeadings">
+         If, Else Ifs, and Else Loops
+      </h1>
+      <table id="ifElseifsandElse">
+         <tr>
+            <td>
+               <img src="../../images/ifElseifAndElse.png" height=750 width=950>
+            </td>
+            <td>
+               <p id="paragraphs">
+                  This piece of code lists that if the dealer's sum is over 21, the dealer busts and you win money. If that does not happen (else if), if the dealer's sum is bigger than player's sum, you lose and you lose money. If that does not happen (else if), and the player's sum is bigger than the dealer's sum, you win and you win money. If none of that happens (else), that means that the two sums are equal and it's a tie!
+               </p>
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      <h1 id="codeSnipHeadings">
+         Random Numbers
+      </h1>
+      <table id="randomNumbers">
+         <tr>
+            <td>
+               <img src="../../images/randomNumbers.png">
+            </td>
+            <td>
+               <p id="paragraphs">
+                  The first number randomizer is to determine the number of the card. It generates a number between 1 and 13, since there are that many names in a deck of cards (including A, J, Q, K).<br><br>The second number randomizer is to determine the suite of the card. It generates a number between 1 and 4 as there are four suites that the number could be in a deck of cards (Hearts, Diamonds, Clubs, Spades).
+               </p>
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      <br>
+      <h1 id="codeSnipHeadings">
+         Math Operators
+      </h1>
+      <table id="mathOperations">
+         <tr>
+            <td>
+               <p id="paragraphs">
+                  There are many times we use math operations during the game. Here you can see we multiply bet by 1.5 when the player gets a blackjack. This is because blackjacks pays out 1.5 times the money won, so we must add that to their overall total!
+               </p>
+            </td>
+            <td>
+               <img src="../../images/mathOperations.png">
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+     <center>
+       <h1 style="font-size: 40px;">
+         Click the "blackjack.txt" button to go to a text file containing all of our code from this project
+       </h1>
+       <a href="../../blackjack.txt">
+         <img src="../images/blackjackTxtImage.png">
+       </a>
+     </center>
+   </body>
+</html>
+-----------------------------------------------------------GAME PAGE-----------------------------------------------------------
+<!-- 
+   Santhosh Vijay and Krish Patel
+   4/1/2022
+   Game Page
+   This page was created to create the webpage on which our blackjack game in played on
+-->
+<html>
+   <head>
+      <link rel = "icon" a href = "../../images/blackJack.png" type = "image/x-icon">
+      <title>
+         Blackjack Game
+      </title>
+      <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@300&display=swap" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet"/>
+      <script src="../code.js"></script>
+      <link rel="stylesheet" href="../style.css">
+   </head>
+   <body>
+    <div id=navBar>
+       <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../codeSnippets/index.html">Code Snippets</a></li>
+          <li><a href="../howToPlay/index.html">How To Play</a></li>
+          <li><a href="index.html">Play Game</a></li>
+       </ul>
+    </div>
+
+     <center>
+       <a href="index.html">
+         <img src="../images/gamePageHeading.png" id="gamePageHeading" width=700px height=200px>
+       </a>
+     </center>
+   </body>
+</html>
+-----------------------------------------------------------HOW TO PLAY-----------------------------------------------------------
+<!-- 
+   Santhosh and Krish
+   4/3/2022
+   How To Play Page
+   This website is constructed to show people how to play our game
+-->
+<html>
+   <head>
+      <link rel = "icon" a href = "../../images/blackJack.png" type = "image/x-icon">
+      <title>
+        How to Play 
+      </title>
+      <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@300&display=swap" rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet"/>
+      <link rel="stylesheet" href="../style.css">
+   </head>
+   <body>
+      <div id=navBar>
+         <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../codeSnippets/index.html">Code Snippets</a></li>
+            <li><a href="index.html">How To Play</a></li>
+            <li><a href="../gamePage/index.html">Play Game</a></li>
+         </ul>
+      </div>
+      <div id="backgroundImage">
+         <h1 id="homepageTitle">
+            How to Play
+         </h1>
+      </div>
+      <br><br>
+      <h1 id="howToPlayHeadings">
+         How to Play Black Jack Attack
+      </h1>
+      <table id="introtable">
+         <tr>
+            <td>
+               <h1 id="howToPlayHeadings">
+                  Card Values
+               </h1>
+               <p id="paragraphs">
+                  ➙ Each ace is worth either 1 or 11 points.
+                  <br><br>
+                  ➙ For all cards that belong to the two-to-ten string, the rule is the same – their rank equals their point value. If you hold a 5, for example, you hold exactly 5 points.
+                  <br><br>
+                  ➙ Every face card, be it a Jack, a Queen, or a King, is worth 10 points.
+               </p>
+               <hr>
+               <hr>
+               <h1 id="howToPlayHeadings">
+                  General Rules
+               </h1>
+               <p id="paragraphs">
+                  ➙ This game is always YOU vs THE DEALER. In this simplified version of the game, the objective is simple, get as close as you can to 21 without going over.
+                  <br><br>
+                  ➙ Each hand, you have three options: <strong>TO STAND</strong> (you don't get dealt a card), <strong>TO HIT</strong> (get dealt another card), and <strong>TO DOUBLE</strong> (double your current bet if possible; it works like a hit but you only draw one card, good to use when you have a 10 or 11 after your first 2 cards, you can only double your first turn)
+                  <br><br>
+                  ➙ If you go over 21, this is called a bust and you automatically lose the hand.
+                  <br><br>
+                  ➙ The dealer must keep hitting until they reach a number above 16. Just like with the player, if the dealer goes above 21, they automatically lose. 
+                  <br><br>
+                  ➙ If nobody busts, whoever has the higher sum of numbers wins. If the sum is equal, you don't win or lose any money. 
+                  <br><br>
+                  ➙ If you win, you win the amount of money you bet, if you lose, you lose the amount of money you bet.
+                  <br><br>
+                  ➙ To get a blackjack, you must get an Ace and a 10 card in your first 2 cards. This pays 1.5 times your bet.
+                  <br><br><br>
+                  You will get the gist of it as you read this page and as you play. If you want more information, simply search it up and there will be thousands of sources to help you out!!
+               </p>
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      <table id="introTable">
+         <tr>
+            <td>
+               <img src="../../images/1firstPrompt.png">
+            </td>
+            <td>
+               <img src="../../images/2secondPrompt.png">
+            </td>
+            <td>
+               <p id="paragraphs">
+                  You will be greeted with this alert when you first enter the game! After clicking enter to the first alert, a second alert will appear, showing you the total amount of money you have to put on the line! Since this is a virtual game with no real currency, the designated amount everyone will get at the beginning of the game will always be $2500.
+               </p>
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      <br><br>
+      <table id="introTable">
+         <tr>
+            <td>
+               <p id="paragraphs">
+                  After the second alert, you will be asked a question. How much money are you willing to bet for that hand/round? After you input the amount of money you are willing to bet, the dealer starts to deal your cards out. You will be able to see two of your cards and one of the dealers card. Now you have a <strong> VERY IMPORTANT CHOICE TO MAKE!</strong> Will you hit (ask for another card), or stand (stick with the amount you have). <strong> BUT JUST REMEMBER THAT YOU NEED TO BE THE CLOSEST TO 21!!</strong>
+               </p>
+            </td>
+            <td>
+               <img src="../../images/3enterAmountOfMoney.png">
+            </td>
+            <td>
+               <img src="../../images/4hitOrStand.png">
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      <br><br>
+      <table id="winOrLoseTable">
+         <tr>
+            <td>
+               <center>
+                  <h1 id="howToPlayHeader">
+                     IF YOU WIN
+                  </h1>
+               </center>
+            </td>
+            <td>
+               <center>
+                  <h1 id="howToPlayHeader">
+                     IF YOU LOSE
+               </center>
+               </h1>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <center>
+                  <img src="../../images/4winPrompt.png">
+               </center>
+            </td>
+            <td>
+               <center>
+                  <img src="../../images/5bustPrompt.png">
+               </center>
+            </td>
+         </tr>
+         <tr>
+            <td>
+               <p id="paragraphs">
+                  If you win, you would be presented with the alert, saying that <strong> YOU WON!!</strong> As this is virtual money and will not effect your finacial stability, <strong> YOU SHOULD KEEP ON PLAYING THIS GAME!!</strong> 
+               </p>
+            </td>
+            <td>
+               <p id="paragraphs">
+                  If you lose, you would be presented with the alert, saying that<strong> YOU LOSE!!</strong> This means that you suck and should get better!! As this is virtual money and will not effect your finacial stability, <strong> YOU SHOULD KEEP ON PLAYING THIS GAME!!</strong>
+               </p>
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      <br><br>
+      <table id=leavingTable>
+         <tr>
+            <td>
+               <p id="paragraphs">
+                  Regardless if you win or lose, a new prompt will always show up asking if you would like to play again, <strong> UNLESS YOU DONT HAVE ANY MORE MONEY! </strong> If you select to play again, you will go back to the first alert that was shown!
+               </p>
+            </td>
+            <td>
+               <img src="../../images/6endingPrompt.png">
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      <br><br>
+      <table id="leavingTable">
+         <tr>
+            <td>
+               <img src="../../images/7leavingPrompt.png">
+            </td>
+            <td>
+               <p id="paragraphs">
+                  <strong> IF YOU SELECTED THE NO OPTION, </strong> you will be greeted with a prompt displaying the amount of money you have ended up with. With this information, you can find out if blackjack really suits you and if gambling is really for you!
+               </p>
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+      <br><br>
+      <table id=endTable>
+         <tr>
+            <td>
+               <p id="paragraphs">
+                  If you try to continue to gamble when you have no more money, a prompt will appear and you will have to enter a number between 5-15 for a special surprise. After your surprise, you will see another alert describing how you can play again!!
+               </p>
+            </td>
+            <td>
+               <img src="../../images/8lostAllMoneyPrompt.png">
+            </td>
+            <td>
+               <img src="../../images/9endPrompt.png">
+            </td>
+         </tr>
+      </table>
+      <hr>
+      <hr>
+   </body>
+</html>
+-----------------------------------------------------------CODE.JS-----------------------------------------------------------
+/*
+  Santhosh Vijay and Krish Patel
+  3/30/2022
+  Blackjack Game
+  This following code is the game (BlackJack)
+*/
+
+alert("You are about to play a blackjack game!");
+alert("You will have $2500 to start off, gamble wisely!");
+
+let money=2500;
+let playAgain=1;
+let times = 0;
+let reminder = "";
+
+function playGame()//the entire gameplay in a function so that player can infinitaly play the game as long as they want to or until they have no money
+{
+  let suite = ""; //the suite of the card
+  let number = 0; //the true value of the card (J's true value would be 10)
+  let playerSum = 0; //the sum of the player's cards
+  let dealerSum = 0; //the sum of the dealer's cards
+  let name = ""; //the symbol that appears on the card 
+  let playerCards = ""; //shows all of the player's cards
+  let dealerCards = ""; //shows all of the dealer's cards
+  let busted = false; //shows if the player busted
+  let blackjack = false; //shows if the player has gotten blackjack
+  let hitOrStand="H"; // initial value is 'H' to start the while loop
+  let canDouble = false; //inital value for if the hand is eligible to double is false
+  let bet; //initalize the value of the 
+
+  while(isNaN(bet)==true)
+    {
+      bet=+prompt("How much do you want to bet? If you don't put anything in, it will automatically bet $0\nMoney: $" + money);
+      if(isNaN(bet)==false)
+      {
+        break;
+      }
+      else
+      {
+       alert("You did not enter a valid number, please enter the amount you want to bet!")
+      }
+    }
+  
+
+  while(bet>money)
+    {
+      alert("You are betting more than you have. Please select a valid amount!");
+      bet=+prompt("How much do you want to bet?"); 
+    }
+
+  alert("The dealer is shuffling the cards... press OK to continue");
+  
+  function drawCard(player) //A function is a block of code that you can execute over and over by calling on the function. You can also add parameters to the function to change the inputs. In this case, I made the parameter of which player is the card drawn to. If the value "dealer" is given when the function is called, the card will be drawn for the dealer,
+  {
+    number = 1+Math.round(Math.random()*12); //will get a number from 1-13 (the possible number outcomes with the inclusion of A, J, Q, K)
+    suite = 1+Math.round(Math.random()*3); //will get a number from 1-4 to determine the suite (there are 4 suites: ♥, ♦, ♣, ♠)
+
+    //The following code sets the suite of the card
+    if(suite==1)
+    {
+      suite="♥";
+    }
+    else if(suite==2)
+    {
+      suite="♦";
+    }
+    else if(suite==3)
+    {
+      suite="♣";
+    }
+    else if(suite==4)
+    {
+      suite="♠";
+    }
+
+    //The following code sets the number of the card
+
+    if(number==1) //if the random number chosen is 1, it converts it into an Ace and follows general Ace rules 
+    {
+      name = "A";
+      if(dealerSum>=11||playerSum>=11)
+      {
+        number = 1;
+      }
+      else
+      {
+        number = 11; 
+      }
+    }
+    
+      else if(number==11) //if the random number chose is 11, it converts in into a Jack and sets its value to 10
+      {
+        name = "J";
+        number = 10;
+      }
+      else if(number==12) //if the random number chose is 12, it converts in into a Queen and sets its value to 10
+      {
+        name = "Q";
+        number = 10;
+      }
+      else if(number==13) //if the random number chose is 13, it converts in into a King and sets its value to 10
+      {
+        name = "K";
+        number = 10;
+      }
+      else //if none of the conditions above are true, the name of the card is the same as its value
+      {
+        name = number;
+      }
+  
+      if(player == "dealer") //if the dealer draws a card (decided in parameters)
+      {
+        dealerCards += "|‾‾‾‾‾‾‾‾‾‾|\n|  "+name+"            |\n|  " + suite + "           |\n|                |\n|___________|\n";
+        dealerSum += number;
+        alert("Your total is " + playerSum + " || The dealer's total is " + dealerSum + "\nThe dealer's cards are:\n"+ dealerCards);
+      }
+        
+      else if(player == "player") //if the player draws a card (decided in parameters)
+      {
+        playerCards += "|‾‾‾‾‾‾‾‾‾‾|\n|  "+name+"            |\n|  " + suite + "           |\n|                |\n|___________|\n";
+        playerSum += number;
+        alert("Your total is " + playerSum + " || The dealer's total is " + dealerSum + "\nYour cards are:\n"+ playerCards + "\n");
+      }
+    }
+
+  //Standard starting gameplay of a blackjack game (the player gets a card handed to they, then the dealer, than the player again. Then, the player has the choice of what play they want to make)
+  
+  drawCard("player");
+  drawCard("dealer");
+  drawCard("player");
+  
+  //DEALING WITH PLAYER DECISIONS
+
+  if(bet*2<=money)
+  {
+    canDouble = true;
+  }
+  
+  if(playerSum==21)
+  {
+    blackjack=true;
+    alert("Blackjack!");
+    hitOrStand = "S";
+    bet=bet*1.5;
+    money+=bet;
+  }
+    
+  else
+  {
+    if(canDouble==true)
+    {
+      while(hitOrStand=="H"|| hitOrStand=="h"||hitOrStand=="Hit"||hitOrStand=="hit")
+      {
+        hitOrStand = prompt("Do you want to hit, stand, or double. Enter 'H' to hit, 'S' to stand, 'D' to double!\n\nYour total is " + playerSum + " || The dealer's total is " + dealerSum);
+
+        if(hitOrStand=="S"|| hitOrStand=="s"||hitOrStand=="Stand"||hitOrStand=="stand")
+        {
+          break;
+        }
+        else if(hitOrStand=="H"|| hitOrStand=="h"||hitOrStand=="Hit"||hitOrStand=="hit")
+        {
+          drawCard("player");
+          if(playerSum==21)
+          {
+            break;
+          }
+          else if(playerSum>21)
+          {
+            busted = true;
+            alert("You busted. You lose");
+            money-=bet;
+            break;
+          }
+        }
+    
+        else if(hitOrStand=="D"|| hitOrStand=="d"||hitOrStand=="Double"||hitOrStand=="double")
+        {
+          bet=bet*2;
+          alert("You decided to double, your new bet for this hand is $" + bet);
+          drawCard("player");
+          if(playerSum>21)
+          {
+            busted = true;
+            alert("You busted. You lose");
+            money-=bet;
+            break;
+          }
+          else
+          {
+            break;
+          }
+        }
+        else
+        {
+          hitOrStand = "H";
+          alert("You did not enter a valid answer, please enter your decision again!");
+        }
+      }
+    }
+
+    else if(canDouble==false)
+    {
+      while(hitOrStand=="H"|| hitOrStand=="h"||hitOrStand=="Hit"||hitOrStand=="hit")
+        {
+          hitOrStand = prompt("Do you want to hit or stand. Enter 'H' to hit and 'S' to stand!\n\nYour total is " + playerSum + " || The dealer's total is " + dealerSum);
+  
+          if(hitOrStand=="S"|| hitOrStand=="s"||hitOrStand=="Stand"||hitOrStand=="stand")
+          {
+            break;
+          }
+          else if(hitOrStand=="H"|| hitOrStand=="h"||hitOrStand=="Hit"||hitOrStand=="hit")
+          {
+            drawCard("player");
+            if(playerSum==21)
+            {
+              break;
+            }
+            else if(playerSum>21)
+            {
+              busted = true;
+              alert("You busted. You lose");
+              money-=bet;
+              break;
+            }
+          }
+          else
+          {
+            hitOrStand = "H";
+            alert("You did not enter a valid answer, please enter your decision again!");
+          }
+        }
+    }
+  }
+  
+  
+    // DEALING WITH DEALER DRAWING CARDS
+  
+    if(busted==false && blackjack==false)
+    {
+      do
+      {
+        drawCard("dealer");
+      }while(dealerSum<=16);
+    }
+    
+    // DIFFERENT OUTCOMES DEPENDING ON THE TWO SUMS
+  
+    if(busted==false && blackjack==false)
+    {
+      if(dealerSum>21)
+      {
+        alert("Dealer busted, you win");
+        money += bet;
+      }
+    
+      else if(dealerSum>playerSum)
+      {
+        alert("The dealer's sum is higher. You lose");
+        money -= bet;
+      }
+    
+      else if(dealerSum<playerSum)
+      {
+        alert("Your sum is higher. You Win");
+        money += bet;
+      }
+    
+      else //the only other possibility is that the player sum is equal to the dealer sum
+      {
+        alert("Tie. Push");
+      }
+      
+    }
+  }
+
+playGame();
+
+
+while(playAgain==1)
+  {
+    if(money==0)
+    {
+      times=+prompt("You just gambled all your money away!! Pick a number between 5 and 10");
+
+      if(times<=10 && times>=5)
+      {
+        for(let i=1;i<=times;i++)
+        {
+          reminder+="I will never gamble my real money!!\n";
+        }
+        alert(reminder);
+        alert("Hopefully that convinces you to never gamble your real money beause clearly you are not very good at blackjack. To play again, click the Play Again button once this alert closes.");
+        break;
+      }
+      else
+      {
+        alert("You failed to enter a number in between 5 and 10, you clearly aren't the brightest of the bunch and should therefore never gamble your real money! To play again, click the Play Again button once this alert closes.");
+        break;
+      }
+    }
+    
+    playAgain =+ prompt("Do you want to play again.\nEnter 1 for YES!\nEnter 2 for NO!");
+
+    if(playAgain==1)
+    {
+      playGame();
+    }
+
+    else if(playAgain==2)
+    {
+      alert("Thank you for playing Blackjack, you ended with $" + money + ". Come back anytime! To play again, click the Play Again button once this alert closes.");
+    }
+
+    else
+    {
+      playAgain = 1;
+      alert("Enter a valid input");
+    }
+  }
+-----------------------------------------------------------STYLE.CSS-----------------------------------------------------------
+/*
+  Santhosh Vijay and Krish Patel
+  4/4/2022
+  Styles sheet
+  This following code is for the styles!
+*/
+
+body{
+  background-image: linear-gradient(#080838 30%, #8a0b0b);
+  color:white;
+}
+
+p{
+  font-family: 'Anek Tamil', sans-serif;
+}
+h1{
+  font-family: 'Play', sans-serif;
+}
+
+#navBar {
+  font-size: 30px;
+  padding-left: 200px;
+}
+
+#navBar ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+#navBar li {
+  float: left;
+  text-align: center;
+}
+
+#navBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 100px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#navBar li a:hover {
+  background-color:#0c2f5c;
+  font-size:36px;
+  transition:0.2s
+}
+
+#backgroundImage
+{
+  background-image: url(images/titleBackground.png);
+  height: 550px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+/* To get glowing text, we used code from: https://www.w3schools.com/howto/howto_css_glowing_text.asp*/
+#homepageTitle{
+  position: relative;
+  top: 50px;
+  font-size: 80px;
+  font-family: 'Press Start 2P';
+  color: #fff;
+  text-align: center;
+  -webkit-animation: glow 3s ease-in-out infinite alternate;
+  -moz-animation: glow 1.5s ease-in-out infinite alternate;
+  animation: glow 1.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FF0000, 0 0 40px #FF0000, 0 0 50px #FF0000, 0 0 60px #FF0000, 0 0 70px #FF0000;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #1a2ac0, 0 0 40px #1a2ac0, 0 0 50px #1a2ac0, 0 0 60px #1a2ac0, 0 0 70px #1a2ac0, 0 0 80px #1a2ac0;
+  }
+}
+
+/* GAME BUTTON */
+
+
+/* WELCOME TABLE */
+
+#welcomeTable{
+  font-size: 28px;
+  line-height: 45px;
+  padding: 70px;
+  color: white;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+#mainPageHeadings{
+  display:block;
+  text-align: left;
+  font-size: 50px;
+  color:white;
+  position: relative;
+  left:230px;
+  top:40px;
+}
+
+#paragraphs{
+  font-size: 26px;
+  line-height: 45px;
+  padding: 100px;
+  color:white;
+}
+
+#welcomePicture{
+  padding: 40px;
+}
+
+#pointersTable{
+  font-size: 28px;
+  line-height: 45px;
+  padding: 70px;
+  color: white;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+
+#creatorsHeading{
+  display:block;
+  text-align: center;
+  font-size: 50px;
+  color:white;
+}
+
+#creatorTable{
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+/* THE FOLLOWING CODE IS TO STYLE THE HOW TO PLAY WEBPAGE*/
+
+#introTable{
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+#winOrLoseTable{
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+#leavingTable{
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+#endTable{
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+/* The following is to style the code in the code snippets webpage */
+
+#whileTable {
+  margin:auto;
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+#forLoopTable{
+  margin:auto;
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+#doWhileTable{
+  margin:auto;
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4); 
+}
+
+#logicalAndShortcutTable{
+  margin:auto;
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);  
+}
+
+#ifElseifsandElse{
+  margin:auto;
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+#randomNumbers{
+  margin:auto;
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+#mathOperations{
+  margin:auto;
+  border-style: solid;
+  color: white;
+  border-size: 20px;
+  border-color: black;
+  position: relative;
+  background-color:rgba(0, 0, 0, 0.4);
+}
+
+#codeSnipHeadings{
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  color:white;
+  text-decoration: underline;
+}
+#howToPlayHeadings{
+  display: block;
+  text-align: center;
+  font-size: 40px;
+  color:white;
+  text-decoration: underline;
+}
+
+
+/* The following code is to style the game page */
+
+#gamePageHeading {
+  background-color: rgba(175, 175, 175, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
